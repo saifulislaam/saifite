@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 100" width="800" height="100">
+  <defs>
+    <style>
+      text {
+        font-family: 'Share Tech Mono', 'Courier New', monospace;
+        fill: #00FF41;
+      }
+    </style>
+  </defs>
+  
+  <rect width="800" height="100" fill="#000000"/>
+  
+  <text x="400" y="30" text-anchor="middle" font-size="11" fill="#1A3A1A">
+    ╔══════════════════════════════════════════════════════════════════════════════════════╗
+  </text>
+  
+  <text x="400" y="50" text-anchor="middle" font-size="11" fill="#00AA33">
+    ║                    Made with 💚 by SAIF UL ISLAM | @saifulislaam                    ║
+  </text>
+  
+  <text x="400" y="70" text-anchor="middle" font-size="10" fill="#00AA33">
+    ║                         © 2024 | Ethical Hacking | Security Research                ║
+  </text>
+  
+  <text x="400" y="90" text-anchor="middle" font-size="11" fill="#1A3A1A">
+    ╚══════════════════════════════════════════════════════════════════════════════════════╝
+  </text>
+</svg>

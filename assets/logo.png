@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 200" width="500" height="200">
+  <defs>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&amp;display=swap');
+      text {
+        font-family: 'Share Tech Mono', 'Courier New', monospace;
+        fill: #00FF41;
+      }
+      .glow {
+        filter: drop-shadow(0 0 5px #00FF41);
+      }
+    </style>
+  </defs>
+  
+  <rect width="500" height="200" fill="#000000"/>
+  
+  <!-- ASCII Art Style Logo -->
+  <text x="250" y="50" text-anchor="middle" font-size="14" font-weight="bold" class="glow">
+    ███████╗ █████╗ ██╗███████╗██╗████████╗███████╗
+  </text>
+  <text x="250" y="70" text-anchor="middle" font-size="14" font-weight="bold" class="glow">
+    ██╔════╝██╔══██╗██║██╔════╝██║╚══██╔══╝██╔════╝
+  </text>
+  <text x="250" y="90" text-anchor="middle" font-size="14" font-weight="bold" class="glow">
+    ███████╗███████║██║█████╗  ██║   ██║   █████╗  
+  </text>
+  <text x="250" y="110" text-anchor="middle" font-size="14" font-weight="bold" class="glow">
+    ╚════██║██╔══██║██║██╔══╝  ██║   ██║   ██╔══╝  
+  </text>
+  <text x="250" y="130" text-anchor="middle" font-size="14" font-weight="bold" class="glow">
+    ███████║██║  ██║██║██║     ██║   ██║   ███████╗
+  </text>
+  <text x="250" y="150" text-anchor="middle" font-size="14" font-weight="bold" class="glow">
+    ╚══════╝╚═╝  ╚═╝╚═╝╚═╝     ╚═╝   ╚═╝   ╚══════╝
+  </text>
+  
+  <text x="250" y="175" text-anchor="middle" font-size="16" font-weight="bold" fill="#33FF66">
+    HACK THE NETWORK
+  </text>
+  
+  <text x="250" y="195" text-anchor="middle" font-size="10" fill="#00AA33">
+    v2024.1 | Wireless Security Auditor
+  </text>
+</svg>

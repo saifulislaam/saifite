@@ -1,0 +1,22 @@
+# SAIFITE Python Dependencies
+# Install with: pip3 install -r requirements.txt
+
+# Core dependencies (required)
+matplotlib>=3.5.0
+numpy>=1.21.0
+
+# GUI dependencies (for GUI version)
+# These are usually included with Python, but listed for completeness
+# python3-tk - system package, not pip installable
+
+# Optional dependencies for enhanced functionality
+# pyrit - system package (sudo apt-get install pyrit)
+# cowpatty - system package (sudo apt-get install cowpatty)
+# reaver - system package (sudo apt-get install reaver)
+# aircrack-ng - system package (sudo apt-get install aircrack-ng)
+
+# Development dependencies
+pytest>=7.0.0
+pytest-cov>=4.0.0
+black>=22.0.0
+flake8>=5.0.0
