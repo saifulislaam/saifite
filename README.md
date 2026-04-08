@@ -1,570 +1,543 @@
-{
-  "saifite_readme": {
-    "metadata": {
-      "project": "SAIFITE",
-      "version": "2024.1",
-      "author": "SAIF UL ISLAM",
-      "github": "@saifulislaam",
-      "tagline": "HACK THE NETWORK",
-      "repo_url": "https://github.com/saifulislaam/saifite"
-    },
-    
-    "badges": [
-      {
-        "label": "GitHub",
-        "url": "https://github.com/saifulislaam/saifite",
-        "color": "brightgreen",
-        "style": "for-the-badge",
-        "logo": "github"
-      },
-      {
-        "label": "Version",
-        "url": "https://github.com/saifulislaam/saifite/releases",
-        "color": "00FF41",
-        "style": "for-the-badge",
-        "text": "v2024.1"
-      },
-      {
-        "label": "License",
-        "url": "https://github.com/saifulislaam/saifite/blob/main/LICENSE",
-        "color": "00FF41",
-        "style": "for-the-badge",
-        "text": "GPLv2"
-      },
-      {
-        "label": "Python",
-        "url": null,
-        "color": "00FF41",
-        "style": "flat-square",
-        "text": "3.8+"
-      },
-      {
-        "label": "Linux",
-        "url": null,
-        "color": "00FF41",
-        "style": "flat-square",
-        "text": "Kali|Ubuntu|Parrot"
-      }
-    ],
+# SAIFITE - Professional Wireless Security Auditor
 
-    "ascii_art": [
-      "  ███████╗ █████╗ ██╗███████╗██╗████████╗███████╗",
-      "  ██╔════╝██╔══██╗██║██╔════╝██║╚══██╔══╝██╔════╝",
-      "  ███████╗███████║██║█████╗  ██║   ██║   █████╗  ",
-      "  ╚════██║██╔══██║██║██╔══╝  ██║   ██║   ██╔══╝  ",
-      "  ███████║██║  ██║██║██║     ██║   ██║   ███████╗",
-      "  ╚══════╝╚═╝  ╚═╝╚═╝╚═╝     ╚═╝   ╚═╝   ╚══════╝"
-    ],
+<p align="center">
+  <img src="https://raw.githubusercontent.com/saifulislaam/saifite/main/assets/logo.png" alt="SAIFITE Logo" width="200">
+</p>
 
-    "description": {
-      "short": "Professional automated wireless network security auditing tool",
-      "long": "SAIFITE is a professional, automated wireless network security auditing tool designed for security professionals and ethical hackers. It provides a complete suite of tools to assess Wi-Fi network security through various attack vectors including WPA/WPA2 handshake capture, WEP cracking, and WPS PIN brute-force attacks."
-    },
+<p align="center">
+  <strong>⚡ HACK THE NETWORK ⚡</strong>
+</p>
 
-    "features": [
-      {
-        "icon": "🔍",
-        "name": "Network Discovery",
-        "description": "Real-time scanning of wireless networks with signal strength analysis"
-      },
-      {
-        "icon": "🤝",
-        "name": "WPA Handshake Capture",
-        "description": "Capture 4-way handshake using deauthentication attacks"
-      },
-      {
-        "icon": "🔑",
-        "name": "WPA Cracking",
-        "description": "Dictionary-based password cracking with aircrack-ng"
-      },
-      {
-        "icon": "🔓",
-        "name": "WEP Attacks",
-        "description": "Multiple attack methods (ARP replay, Chop-chop, Fragmentation, Caffe-latte)"
-      },
-      {
-        "icon": "📍",
-        "name": "WPS Attacks",
-        "description": "PIN brute-force and Pixie-Dust attacks using reaver"
-      },
-      {
-        "icon": "💾",
-        "name": "Cracked Database",
-        "description": "Persistent storage of cracked networks in CSV format"
-      },
-      {
-        "icon": "🖥️",
-        "name": "Dual Interface",
-        "description": "Both CLI and GUI versions available"
-      },
-      {
-        "icon": "🎨",
-        "name": "Cyber Theme",
-        "description": "Hacker-style green-on-black interface"
-      }
-    ],
+<p align="center">
+  <a href="https://github.com/saifulislaam/saifite">
+    <img src="https://img.shields.io/badge/GitHub-saifulislaam%2Fsaifite-brightgreen?style=for-the-badge&logo=github" alt="GitHub">
+  </a>
+  <a href="https://github.com/saifulislaam/saifite/releases">
+    <img src="https://img.shields.io/github/v/release/saifulislaam/saifite?style=for-the-badge&color=00FF41" alt="Version">
+  </a>
+  <a href="https://github.com/saifulislaam/saifite/blob/main/LICENSE">
+    <img src="https://img.shields.io/github/license/saifulislaam/saifite?style=for-the-badge&color=00FF41" alt="License">
+  </a>
+  <a href="https://github.com/saifulislaam/saifite/issues">
+    <img src="https://img.shields.io/github/issues/saifulislaam/saifite?style=for-the-badge&color=00FF41" alt="Issues">
+  </a>
+</p>
 
-    "attack_methods": {
-      "wpa": {
-        "enabled": true,
-        "techniques": [
-          "Deauthentication attack for handshake capture",
-          "Dictionary-based cracking",
-          "Multi-tool handshake verification (aircrack, tshark, pyrit, cowpatty)"
-        ]
-      },
-      "wep": {
-        "enabled": true,
-        "techniques": [
-          "ARP replay attack",
-          "Chop-chop attack",
-          "Fragmentation attack",
-          "Caffe-latte attack",
-          "P0841 attack",
-          "Hirte attack"
-        ]
-      },
-      "wps": {
-        "enabled": true,
-        "techniques": [
-          "PIN brute-force (reaver)",
-          "Pixie-Dust attack (vulnerable routers)",
-          "WPS lock status detection"
-        ]
-      }
-    },
+<p align="center">
+  <img src="https://img.shields.io/badge/Python-3.8+-00FF41?style=flat-square&logo=python" alt="Python">
+  <img src="https://img.shields.io/badge/Linux-Kali%20%7C%20Ubuntu%20%7C%20Parrot-00FF41?style=flat-square&logo=linux" alt="Linux">
+  <img src="https://img.shields.io/badge/Tools-aircrack--ng%20%7C%20reaver-00FF41?style=flat-square" alt="Tools">
+</p>
 
-    "installation": {
-      "method_1": {
-        "name": "Direct Download",
-        "commands": [
-          "git clone https://github.com/saifulislaam/saifite.git",
-          "cd saifite",
-          "chmod +x saifite.py saifite_gui.py",
-          "sudo python3 saifite.py"
-        ]
-      },
-      "method_2": {
-        "name": "One-Line Install",
-        "commands": [
-          "git clone https://github.com/saifulislaam/saifite.git && cd saifite && sudo python3 saifite.py"
-        ]
-      },
-      "method_3": {
-        "name": "Install Dependencies",
-        "commands": [
-          "sudo apt-get update",
-          "sudo apt-get install -y aircrack-ng reaver tshark python3-tk",
-          "pip3 install matplotlib numpy",
-          "sudo python3 saifite.py"
-        ]
-      }
-    },
+---
 
-    "quick_start": {
-      "cli": {
-        "commands": [
-          {
-            "description": "Basic scan and attack",
-            "command": "sudo python3 saifite.py"
-          },
-          {
-            "description": "Target specific network",
-            "command": "sudo python3 saifite.py -e \"MyNetwork\" -b 00:11:22:33:44:55"
-          },
-          {
-            "description": "WPS Pixie-dust only",
-            "command": "sudo python3 saifite.py --wps --pixie"
-          },
-          {
-            "description": "Capture WPA handshake with cracking",
-            "command": "sudo python3 saifite.py --wpa --crack /usr/share/wordlists/rockyou.txt"
-          },
-          {
-            "description": "Show previously cracked networks",
-            "command": "sudo python3 saifite.py --cracked"
-          }
-        ]
-      },
-      "gui": {
-        "commands": [
-          {
-            "description": "Launch GUI",
-            "command": "sudo python3 saifite_gui.py"
-          }
-        ],
-        "hotkeys": [
-          { "key": "F5", "action": "Start Scan" },
-          { "key": "F6", "action": "Stop Scan" },
-          { "key": "F9", "action": "Start Attack" },
-          { "key": "F10", "action": "Stop Attack" },
-          { "key": "Ctrl+L", "action": "Clear Log" },
-          { "key": "Ctrl+Q", "action": "Exit" }
-        ]
-      }
-    },
+## 📌 **Description**
 
-    "cli_commands": {
-      "global": [
-        {
-          "command": "-i, --interface",
-          "description": "Wireless interface",
-          "example": "-i wlan0"
-        },
-        {
-          "command": "-c, --channel",
-          "description": "Channel to scan",
-          "example": "-c 6"
-        },
-        {
-          "command": "-e, --essid",
-          "description": "Target ESSID",
-          "example": "-e \"MyWiFi\""
-        },
-        {
-          "command": "-b, --bssid",
-          "description": "Target BSSID",
-          "example": "-b 00:11:22:33:44:55"
-        },
-        {
-          "command": "--all",
-          "description": "Attack all targets",
-          "example": "--all"
-        },
-        {
-          "command": "--showb",
-          "description": "Show BSSIDs in scan",
-          "example": "--showb"
-        },
-        {
-          "command": "--power",
-          "description": "Minimum power level",
-          "example": "--power 50"
-        },
-        {
-          "command": "--mac",
-          "description": "Spoof MAC address",
-          "example": "--mac"
-        },
-        {
-          "command": "--quiet",
-          "description": "Quiet mode",
-          "example": "--quiet"
-        }
-      ],
-      "wpa": [
-        {
-          "command": "--wpa",
-          "description": "Enable WPA attacks",
-          "default": "On"
-        },
-        {
-          "command": "--wpat",
-          "description": "Attack timeout (seconds)",
-          "default": "500"
-        },
-        {
-          "command": "--wpadt",
-          "description": "Deauth timeout (seconds)",
-          "default": "10"
-        },
-        {
-          "command": "--crack",
-          "description": "Crack handshakes",
-          "default": "Off"
-        },
-        {
-          "command": "--dict",
-          "description": "Dictionary file",
-          "default": "auto"
-        },
-        {
-          "command": "--strip",
-          "description": "Strip handshake",
-          "default": "On"
-        }
-      ],
-      "wep": [
-        {
-          "command": "--wep",
-          "description": "Enable WEP attacks",
-          "default": "On"
-        },
-        {
-          "command": "--pps",
-          "description": "Packets per second",
-          "default": "600"
-        },
-        {
-          "command": "--wept",
-          "description": "Attack timeout",
-          "default": "600"
-        },
-        {
-          "command": "--wepca",
-          "description": "IVs to start cracking",
-          "default": "10000"
-        },
-        {
-          "command": "--chopchop",
-          "description": "Chop-chop attack",
-          "default": "On"
-        },
-        {
-          "command": "--arpreplay",
-          "description": "ARP replay attack",
-          "default": "On"
-        }
-      ],
-      "wps": [
-        {
-          "command": "--wps",
-          "description": "Enable WPS attacks",
-          "default": "On"
-        },
-        {
-          "command": "--pixie",
-          "description": "Pixie-dust only",
-          "default": "Off"
-        },
-        {
-          "command": "--wpst",
-          "description": "Attack timeout",
-          "default": "660"
-        },
-        {
-          "command": "--wpsratio",
-          "description": "Success ratio threshold",
-          "default": "0.01"
-        }
-      ]
-    },
+**SAIFITE** is a **professional, automated wireless network security auditing tool** designed for security professionals and ethical hackers. It provides a complete suite of tools to assess Wi-Fi network security through various attack vectors including WPA/WPA2 handshake capture, WEP cracking, and WPS PIN brute-force attacks.
 
-    "gui_tabs": [
-      {
-        "name": "Dashboard",
-        "features": [
-          "Interface control (enable/disable monitor mode)",
-          "MAC spoofing toggle",
-          "Real-time statistics",
-          "ASCII charts for network analysis",
-          "Quick command buttons"
-        ]
-      },
-      {
-        "name": "Network Scanner",
-        "features": [
-          "Channel selection",
-          "Signal strength filtering",
-          "Target discovery",
-          "Client association display",
-          "Add to attack list"
-        ]
-      },
-      {
-        "name": "Attack Center",
-        "features": [
-          "Attack mode selection (WPA/WEP/WPS)",
-          "Target queue management",
-          "Attack settings configuration",
-          "Progress tracking",
-          "Attack console output"
-        ]
-      },
-      {
-        "name": "Handshake Lab",
-        "features": [
-          "Handshake capture with BSSID targeting",
-          "Captured handshakes list",
-          "Handshake analysis",
-          "Dictionary cracking",
-          "Delete functionality"
-        ]
-      },
-      {
-        "name": "WPS Cracker",
-        "features": [
-          "WPS-enabled targets list",
-          "Lock status checking",
-          "PIN brute-force attack",
-          "Pixie-dust attack",
-          "WPS console output"
-        ]
-      },
-      {
-        "name": "Cracked DB",
-        "features": [
-          "Statistics banner",
-          "Cracked networks database",
-          "Export to CSV/TXT",
-          "Copy password to clipboard",
-          "Clear history"
-        ]
-      },
-      {
-        "name": "Console",
-        "features": [
-          "Real-time logging",
-          "Color-coded messages",
-          "Filter functionality",
-          "Save/export logs"
-        ]
-      }
-    ],
+### 🎯 **Key Features**
 
-    "requirements": {
-      "system": {
-        "os": "Linux (Kali, Ubuntu, Parrot, Debian)",
-        "python": "3.8 or higher",
-        "ram": "512MB minimum (2GB recommended)",
-        "disk_space": "500MB for tools + wordlists"
-      },
-      "hardware": {
-        "wireless_adapter": "Must support monitor mode and packet injection",
-        "recommended": ["Alfa AWUS036ACH", "TP-Link TL-WN722N v1"],
-        "chipsets": ["Atheros AR9271", "RTL8187", "RTL8812AU"]
-      },
-      "software": {
-        "required": [
-          "aircrack-ng",
-          "reaver",
-          "tshark",
-          "iwconfig"
-        ],
-        "optional": [
-          "pyrit",
-          "cowpatty",
-          "hashcat"
-        ]
-      },
-      "wordlists": [
-        "/usr/share/wordlists/rockyou.txt",
-        "/usr/share/wordlists/fasttrack.txt"
-      ]
-    },
+| Feature | Description |
+|---------|-------------|
+| 🔍 **Network Discovery** | Real-time scanning of wireless networks with signal strength analysis |
+| 🤝 **WPA Handshake Capture** | Capture 4-way handshake using deauthentication attacks |
+| 🔑 **WPA Cracking** | Dictionary-based password cracking with aircrack-ng |
+| 🔓 **WEP Attacks** | Multiple attack methods (ARP replay, Chop-chop, Fragmentation, Caffe-latte) |
+| 📍 **WPS Attacks** | PIN brute-force and Pixie-Dust attacks using reaver |
+| 💾 **Cracked Database** | Persistent storage of cracked networks in CSV format |
+| 🖥️ **Dual Interface** | Both CLI and GUI versions available |
+| 🎨 **Cyber Theme** | Hacker-style green-on-black interface |
 
-    "troubleshooting": {
-      "common_issues": [
-        {
-          "issue": "No wireless interfaces found",
-          "solution": "Plug in wireless adapter, check `iwconfig`"
-        },
-        {
-          "issue": "Monitor mode failed",
-          "solution": "Run `sudo airmon-ng check kill` first"
-        },
-        {
-          "issue": "reaver: command not found",
-          "solution": "Install reaver: `sudo apt-get install reaver`"
-        },
-        {
-          "issue": "Handshake not captured",
-          "solution": "Move closer to target, increase deauth count"
-        },
-        {
-          "issue": "WPS locked",
-          "solution": "Wait 5-10 minutes, target may have anti-hammering"
-        },
-        {
-          "issue": "Dictionary not found",
-          "solution": "Download rockyou.txt or specify custom wordlist"
-        },
-        {
-          "issue": "Permission denied",
-          "solution": "Must run as root: `sudo python3 saifite.py`"
-        }
-      ],
-      "debug_commands": [
-        "sudo python3 saifite.py --verbose",
-        "sudo python3 saifite.py --check",
-        "sudo aireplay-ng --test wlan0mon"
-      ],
-      "performance_tips": [
-        "Use a powerful wireless adapter (Alfa cards recommended)",
-        "Position antenna properly for better signal",
-        "Close unnecessary programs to free resources",
-        "Use GPU acceleration (pyrit/hashcat) for faster cracking",
-        "Target networks with clients for WPA handshake capture"
-      ]
-    },
+### 🛠️ **Attack Methods**
 
-    "legal_disclaimer": {
-      "title": "⚠️ FOR AUTHORIZED SECURITY TESTING ONLY ⚠️",
-      "message": "This tool is designed for legitimate security assessments on networks you OWN or have EXPLICIT WRITTEN PERMISSION to test.",
-      "warnings": [
-        "Unauthorized access to computer networks is ILLEGAL in most jurisdictions",
-        "Unauthorized access is UNETHICAL and violates privacy",
-        "Unauthorized access is subject to criminal prosecution"
-      ],
-      "agreement": [
-        "Only test networks you own or have permission for",
-        "Comply with all applicable laws",
-        "Accept full responsibility for your actions"
-      ],
-      "liability": "The author assumes NO LIABILITY for misuse of this tool."
-    },
+#### WPA/WPA2
+- Deauthentication attack for handshake capture
+- Dictionary-based cracking
+- Multi-tool handshake verification (aircrack, tshark, pyrit, cowpatty)
 
-    "contributing": {
-      "steps": [
-        "Fork the repository",
-        "Create a feature branch: `git checkout -b feature/amazing-feature`",
-        "Commit changes: `git commit -m 'Add amazing feature'`",
-        "Push to branch: `git push origin feature/amazing-feature`",
-        "Open a Pull Request"
-      ],
-      "development_setup": [
-        "git clone https://github.com/YOUR_USERNAME/saifite.git",
-        "cd saifite",
-        "python3 -m venv venv",
-        "source venv/bin/activate",
-        "pip3 install -r requirements-dev.txt",
-        "python3 -m pytest tests/"
-      ]
-    },
+#### WEP
+- ARP replay attack
+- Chop-chop attack
+- Fragmentation attack
+- Caffe-latte attack
+- P0841 attack
+- Hirte attack
 
-    "license": {
-      "name": "GNU General Public License v2.0",
-      "copyright": "Copyright (C) 2024 SAIF UL ISLAM (@saifulislaam)",
-      "description": "This program is free software; you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation; either version 2 of the License, or (at your option) any later version.",
-      "warranty": "This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.",
-      "full_text_link": "https://www.gnu.org/licenses/gpl-2.0.txt"
-    },
+#### WPS
+- PIN brute-force (reaver)
+- Pixie-Dust attack (vulnerable routers)
+- WPS lock status detection
 
-    "contact": {
-      "github": "github.com/saifulislaam/saifite",
-      "issues": "github.com/saifulislaam/saifite/issues",
-      "discussions": "github.com/saifulislaam/saifite/discussions"
-    },
+---
 
-    "repository_structure": {
-      "files": [
-        "saifite.py",
-        "saifite_gui.py",
-        "README.md",
-        "LICENSE",
-        "requirements.txt",
-        "cracked.csv"
-      ],
-      "directories": [
-        "handshakes/",
-        "assets/",
-        "docs/"
-      ],
-      "assets": [
-        "assets/logo.png",
-        "assets/footer.png"
-      ],
-      "docs": [
-        "docs/installation.md",
-        "docs/usage.md",
-        "docs/api.md"
-      ]
-    },
+## 📋 **Table of Contents**
 
-    "footer": {
-      "text": "Made with 💚 by SAIF UL ISLAM",
-      "copyright": "© 2024 | Ethical Hacking | Security Research",
-      "social": "@saifulislaam"
-    }
-  }
-}
+- [Installation](#-installation)
+- [Quick Start](#-quick-start)
+- [Usage Guide](#-usage-guide)
+- [Commands Reference](#-commands-reference)
+- [GUI Guide](#-gui-guide)
+- [Requirements](#-requirements)
+- [Screenshots](#-screenshots)
+- [Troubleshooting](#-troubleshooting)
+- [Legal Disclaimer](#-legal-disclaimer)
+- [Contributing](#-contributing)
+- [License](#-license)
+
+---
+
+## 🚀 **Installation**
+
+### **Method 1: Direct Download**
+
+```bash
+# Clone the repository
+git clone https://github.com/saifulislaam/saifite.git
+cd saifite
+
+# Make executable
+chmod +x saifite.py saifite_gui.py
+
+# Run CLI version
+sudo python3 saifite.py
+
+# Run GUI version
+sudo python3 saifite_gui.py
+```
+
+### **Method 2: One-Line Install**
+
+```bash
+git clone https://github.com/saifulislaam/saifite.git && cd saifite && sudo python3 saifite.py
+```
+
+### **Method 3: Install Dependencies**
+
+```bash
+# Install required system tools
+sudo apt-get update
+sudo apt-get install -y aircrack-ng reaver tshark python3-tk
+
+# Install Python dependencies
+pip3 install matplotlib numpy
+
+# Run the tool
+sudo python3 saifite.py
+```
+
+---
+
+## 🎮 **Quick Start**
+
+### **CLI Version (saifite.py)**
+
+```bash
+# Basic scan and attack
+sudo python3 saifite.py
+
+# Target specific network
+sudo python3 saifite.py -e "MyNetwork" -b 00:11:22:33:44:55
+
+# WPS Pixie-dust only
+sudo python3 saifite.py --wps --pixie
+
+# Capture WPA handshake with cracking
+sudo python3 saifite.py --wpa --crack /usr/share/wordlists/rockyou.txt
+
+# Show previously cracked networks
+sudo python3 saifite.py --cracked
+```
+
+### **GUI Version (saifite_gui.py)**
+
+```bash
+# Launch GUI
+sudo python3 saifite_gui.py
+
+# GUI Navigation:
+# F5 - Start Scan
+# F6 - Stop Scan
+# F9 - Start Attack
+# F10 - Stop Attack
+# Ctrl+L - Clear Log
+# Ctrl+Q - Exit
+```
+
+---
+
+## 📖 **Usage Guide**
+
+### **CLI Commands**
+
+#### **Global Options**
+
+| Command | Description | Example |
+|---------|-------------|---------|
+| `-i, --interface` | Wireless interface | `-i wlan0` |
+| `-c, --channel` | Channel to scan | `-c 6` |
+| `-e, --essid` | Target ESSID | `-e "MyWiFi"` |
+| `-b, --bssid` | Target BSSID | `-b 00:11:22:33:44:55` |
+| `--all` | Attack all targets | `--all` |
+| `--showb` | Show BSSIDs in scan | `--showb` |
+| `--power` | Minimum power level | `--power 50` |
+| `--mac` | Spoof MAC address | `--mac` |
+| `--quiet` | Quiet mode | `--quiet` |
+
+#### **WPA/WPA2 Options**
+
+| Command | Description | Default |
+|---------|-------------|---------|
+| `--wpa` | Enable WPA attacks | On |
+| `--wpat` | Attack timeout (seconds) | 500 |
+| `--wpadt` | Deauth timeout (seconds) | 10 |
+| `--crack` | Crack handshakes | Off |
+| `--dict` | Dictionary file | auto |
+| `--strip` | Strip handshake | On |
+
+#### **WEP Options**
+
+| Command | Description | Default |
+|---------|-------------|---------|
+| `--wep` | Enable WEP attacks | On |
+| `--pps` | Packets per second | 600 |
+| `--wept` | Attack timeout | 600 |
+| `--wepca` | IVs to start cracking | 10000 |
+| `--chopchop` | Chop-chop attack | On |
+| `--arpreplay` | ARP replay attack | On |
+
+#### **WPS Options**
+
+| Command | Description | Default |
+|---------|-------------|---------|
+| `--wps` | Enable WPS attacks | On |
+| `--pixie` | Pixie-dust only | Off |
+| `--wpst` | Attack timeout | 660 |
+| `--wpsratio` | Success ratio threshold | 0.01 |
+
+### **Attack Workflow**
+
+```bash
+# Step 1: Scan for networks
+sudo python3 saifite.py -i wlan0
+
+# Step 2: Select target (interactive)
+
+# Step 3: Attack based on encryption type
+# - WPA: Captures handshake, then cracks
+# - WEP: Injects packets, collects IVs, cracks
+# - WPS: Brute-forces PIN or uses Pixie-dust
+
+# Step 4: Results saved to cracked.csv
+```
+
+---
+
+## 🖥️ **GUI Guide**
+
+### **Dashboard Tab**
+- Interface control (enable/disable monitor mode)
+- MAC spoofing toggle
+- Real-time statistics
+- ASCII charts for network analysis
+- Quick command buttons
+
+### **Network Scanner Tab**
+- Channel selection
+- Signal strength filtering
+- Target discovery
+- Client association display
+- Add to attack list
+
+### **Attack Center Tab**
+- Attack mode selection (WPA/WEP/WPS)
+- Target queue management
+- Attack settings configuration
+- Progress tracking
+- Attack console output
+
+### **Handshake Lab Tab**
+- Handshake capture with BSSID targeting
+- Captured handshakes list
+- Handshake analysis
+- Dictionary cracking
+- Delete functionality
+
+### **WPS Cracker Tab**
+- WPS-enabled targets list
+- Lock status checking
+- PIN brute-force attack
+- Pixie-dust attack
+- WPS console output
+
+### **Cracked DB Tab**
+- Statistics banner
+- Cracked networks database
+- Export to CSV/TXT
+- Copy password to clipboard
+- Clear history
+
+### **Console Tab**
+- Real-time logging
+- Color-coded messages
+- Filter functionality
+- Save/export logs
+
+---
+
+## 📦 **Requirements**
+
+### **System Requirements**
+- **OS**: Linux (Kali, Ubuntu, Parrot, Debian)
+- **Python**: 3.8 or higher
+- **RAM**: 512MB minimum (2GB recommended)
+- **Disk Space**: 500MB for tools + wordlists
+
+### **Hardware Requirements**
+- **Wireless Adapter**: Must support monitor mode and packet injection
+  - Recommended: Alfa AWUS036ACH, TP-Link TL-WN722N v1
+  - Chipset: Atheros AR9271, RTL8187, RTL8812AU
+
+### **Software Dependencies**
+
+```bash
+# Required (must have)
+aircrack-ng        # Core wireless tools
+reaver             # WPS attacks
+tshark             # Packet analysis
+iwconfig           # Wireless configuration
+
+# Optional (recommended)
+pyrit              # GPU acceleration
+cowpatty           # Handshake verification
+hashcat            # Advanced cracking
+```
+
+### **Wordlists**
+- rockyou.txt (`/usr/share/wordlists/rockyou.txt`)
+- fasttrack.txt (`/usr/share/wordlists/fasttrack.txt`)
+- Custom wordlists supported
+
+---
+
+## 📸 **Screenshots**
+
+### CLI Interface
+```
+  ███████╗ █████╗ ██╗███████╗██╗████████╗███████╗
+  ██╔════╝██╔══██╗██║██╔════╝██║╚══██╔══╝██╔════╝
+  ███████╗███████║██║█████╗  ██║   ██║   █████╗  
+  ╚════██║██╔══██║██║██╔══╝  ██║   ██║   ██╔══╝  
+  ███████║██║  ██║██║██║     ██║   ██║   ███████╗
+  ╚══════╝╚═╝  ╚═╝╚═╝╚═╝     ╚═╝   ╚═╝   ╚══════╝
+
+  HACK THE NETWORK
+  v2024.1
+
+  [+] scanning for wireless devices...
+  [+] enabling monitor mode on wlan0... done
+
+   NUM ESSID                 CH  ENCR  POWER  WPS?  CLIENT
+   --- --------------------  --  ----  -----  ----  ------
+    1  MyWiFi                 6  WPA2    75db  wps   client
+    2  GuestNet              11  WPA     45db   no     
+    3  TestWEP                3  WEP     60db   no    client
+```
+
+### GUI Dashboard
+```
+╔══════════════════════════════════════════════════════════════════╗
+║                      SECURITY DASHBOARD                          ║
+║                   Real-time Network Intelligence                  ║
+╚══════════════════════════════════════════════════════════════════╝
+
+[ INTERFACE CONTROL ]
+$> SELECT INTERFACE: [wlan0    ▼] [START MONITOR] [STOP MONITOR] [SPOOF MAC]
+$> MONITOR MODE: ACTIVE (blinking)
+$> MAC SPOOF: [x] ENABLED
+
+[ STATISTICS ]
+NETWORKS: 0045    CLIENTS: 0012    HANDSHAKES: 0001
+CRACKED: 0003     WPS: 0008        ACTIVE: 01
+```
+
+---
+
+## 🔧 **Troubleshooting**
+
+### **Common Issues & Solutions**
+
+| Issue | Solution |
+|-------|----------|
+| **"No wireless interfaces found"** | Plug in wireless adapter, check `iwconfig` |
+| **"Monitor mode failed"** | Run `sudo airmon-ng check kill` first |
+| **"reaver: command not found"** | Install reaver: `sudo apt-get install reaver` |
+| **"Handshake not captured"** | Move closer to target, increase deauth count |
+| **"WPS locked"** | Wait 5-10 minutes, target may have anti-hammering |
+| **"Dictionary not found"** | Download rockyou.txt or specify custom wordlist |
+| **"Permission denied"** | Must run as root: `sudo python3 saifite.py` |
+
+### **Debug Mode**
+
+```bash
+# Run with verbose output
+sudo python3 saifite.py --verbose
+
+# Check tool dependencies
+sudo python3 saifite.py --check
+
+# Test interface injection
+sudo aireplay-ng --test wlan0mon
+```
+
+### **Performance Tips**
+
+1. **Use a powerful wireless adapter** (Alfa cards recommended)
+2. **Position antenna properly** for better signal
+3. **Close unnecessary programs** to free resources
+4. **Use GPU acceleration** (pyrit/hashcat) for faster cracking
+5. **Target networks with clients** for WPA handshake capture
+
+---
+
+## ⚖️ **Legal Disclaimer**
+
+```
+╔══════════════════════════════════════════════════════════════════╗
+║  ⚠️  FOR AUTHORIZED SECURITY TESTING ONLY  ⚠️                    ║
+║                                                                    ║
+║  This tool is designed for legitimate security assessments on     ║
+║  networks you OWN or have EXPLICIT WRITTEN PERMISSION to test.    ║
+║                                                                    ║
+║  Unauthorized access to computer networks is:                     ║
+║  • ILLEGAL in most jurisdictions                                 ║
+║  • UNETHICAL and violates privacy                                 ║
+║  • Subject to criminal prosecution                               ║
+║                                                                    ║
+║  By using this tool, you agree to:                               ║
+║  • Only test networks you own or have permission for              ║
+║  • Comply with all applicable laws                                ║
+║  • Accept full responsibility for your actions                    ║
+║                                                                    ║
+║  The author assumes NO LIABILITY for misuse of this tool.         ║
+╚══════════════════════════════════════════════════════════════════╝
+```
+
+---
+
+## 🤝 **Contributing**
+
+Contributions are welcome! Please follow these steps:
+
+1. **Fork the repository**
+2. **Create a feature branch**
+   ```bash
+   git checkout -b feature/amazing-feature
+   ```
+3. **Commit your changes**
+   ```bash
+   git commit -m 'Add amazing feature'
+   ```
+4. **Push to branch**
+   ```bash
+   git push origin feature/amazing-feature
+   ```
+5. **Open a Pull Request**
+
+### **Development Setup**
+
+```bash
+# Clone your fork
+git clone https://github.com/YOUR_USERNAME/saifite.git
+cd saifite
+
+# Create virtual environment
+python3 -m venv venv
+source venv/bin/activate
+
+# Install development dependencies
+pip3 install -r requirements-dev.txt
+
+# Run tests
+python3 -m pytest tests/
+```
+
+---
+
+## 📄 **License**
+
+```
+GNU General Public License v2.0
+
+Copyright (C) 2024 SAIF UL ISLAM (@saifulislaam)
+
+This program is free software; you can redistribute it and/or
+modify it under the terms of the GNU General Public License
+as published by the Free Software Foundation; either version 2
+of the License, or (at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with this program; if not, write to the Free Software
+Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA.
+```
+
+---
+
+## 📞 **Contact & Support**
+
+| Platform | Link |
+|----------|------|
+| **GitHub** | [github.com/saifulislaam/saifite](https://github.com/saifulislaam/saifite) |
+| **Issues** | [github.com/saifulislaam/saifite/issues](https://github.com/saifulislaam/saifite/issues) |
+| **Discussions** | [github.com/saifulislaam/saifite/discussions](https://github.com/saifulislaam/saifite/discussions) |
+
+---
+
+## ⭐ **Show Your Support**
+
+If you find SAIFITE useful, please consider:
+- ⭐ Starring the repository on GitHub
+- 🐛 Reporting issues and bugs
+- 🔧 Contributing code or documentation
+- 📢 Sharing with fellow security professionals
+
+---
+
+<p align="center">
+  <strong>Made with 💚 by SAIF UL ISLAM</strong><br>
+  <strong>© 2024 | Ethical Hacking | Security Research</strong>
+</p>
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/saifulislaam/saifite/main/assets/footer.png" alt="Footer" width="400">
+</p>
+
+---
+
+## 📁 **Repository Structure**
+
+```
+saifite/
+├── saifite.py              # CLI version
+├── saifite_gui.py          # GUI version
+├── README.md               # This file
+├── LICENSE                 # GPL v2 license
+├── requirements.txt        # Python dependencies
+├── cracked.csv             # Cracked networks database
+├── handshakes/             # Captured handshakes directory
+├── assets/                 # Images and assets
+│   ├── logo.png
+│   └── footer.png
+└── docs/                   # Documentation
+    ├── installation.md
+    ├── usage.md
+    └── api.md
+```
+
+---
+
+**Happy Ethical Hacking! **
