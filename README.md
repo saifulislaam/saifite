@@ -1,7 +1,7 @@
 # SAIFITE - Professional Wireless Security Auditor
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/saifulislaam/saifite/main/assets/logo.png" alt="SAIFITE Logo" width="200">
+  <img src="https://raw.githubusercontent.com/saifulislaam/saifite/assets/logo.png" alt="SAIFITE Logo" width="200">
 </p>
 
 <p align="center">
@@ -508,12 +508,12 @@ If you find SAIFITE useful, please consider:
 ---
 
 <p align="center">
-  <strong>Made with 💚 by SAIF UL ISLAM</strong><br>
-  <strong>© 2024 | Ethical Hacking | Security Research</strong>
+  <strong>created by SAIF UL ISLAM</strong><br>
+  <strong>© 2025-26 | Ethical Hacking | Security Research</strong>
 </p>
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/saifulislaam/saifite/main/assets/footer.png" alt="Footer" width="400">
+  <img src="https://raw.githubusercontent.com/saifulislaam/saifite/assets/footer.png" alt="Footer" width="400">
 </p>
 
 ---
